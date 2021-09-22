@@ -1,15 +1,14 @@
-*,
-*:before
-*:after{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
 }
+
 .container{
-    width: 450px;
-    background-color: aquamarine;
-    padding: 70px 40px;
-    border-radius: 25px;
+    width: 500px;
+    /* background-color: aquamarine; */
+    background: linear-gradient(90deg, #1CB5E0 0%, #3c4599 100%);
+    padding: 80px 40px;
+    border-radius: 10px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -17,9 +16,10 @@
     box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
     display: flex;
     justify-content: space-between;
+    font-size: x-large;
 }
 .content{
-    width: 45%;
+    width: 47%;
 }
 
 input{
@@ -32,6 +32,6 @@ input{
     padding: 0 10px;
 }
 input:focus{
-    /* outline: rgb(18, 168, 255); */
-    border-color: rgb(18, 168, 255);
+    border-color: #3c4599;
+    outline: none;
 }
