@@ -1,0 +1,21 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "this is my first node app",
+  "main": "index.js",
+  "scripts": {
+    "test": "#"
+  },
+  "repository": {
+    "type": "git",
+    "url": "#"
+  },
+  "keywords": [
+    "#"
+  ],
+  "author": "#",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
