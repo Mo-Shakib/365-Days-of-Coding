@@ -1,12 +1,61 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+  <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    Hello, World
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet alternate" type="text/css" href="./assets/css/style.css" id="styles">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style-dark.css" id="styles-dark">
+    <meta name="theme-color" content="#292929" id="theme-color">
+    <script type="application/json" id="darkmode-enabled">true</script>
+    <script src="./assets/js/ui.js"></script>
+    <link rel="stylesheet" type="text/css" href="./assets/lib/fontawesome/css/all.min.css">
+    <style>
+      a {
+        color: #2178f1;
+        text-decoration: none;
+      }
+      #visitorcount{
+        height: 20px;
+      }
+    </style>
+  </head>
+  <body class=" ">
+    <div class="header">
+      <div>
+        <img id="visitorcount" align="right" src="https://visitor-badge.laobi.icu/badge?page_id=www.mo-shakib.me/365-Days-of-Coding" height="10px">
+        <!-- <a href="/" class="logo"><img src="./assets/img/logo.png" alt="365 Days of Coding"></a> -->
+        <p align="right"><a class="menu-toggle" onclick="document.body.classList.toggle('menu-open');">
+          <i class="fas fa-bars"></i>
+        </a></p>
+        <div class="controls">
+          <!-- <a class="account" href="/link">Github link</a> -->
+          <span>Theme:</span>
+          <a href="/darkmode" title="Toggle dark mode" onclick="return toggle_theme()"><i class="fas fa-adjust"></i><span>Dark mode<span></a>
+        </div>
+      </div> 
+    </div>
+
+  <div class="skeleton">
+  <div class="navigation">
+  <div class="title-block">
+    <h1>365 Days of Coding</h1>
+    <ul class="nav">
+      <!-- <li><a href="https://github.com/Mo-Shakib/365-Days-of-Coding">Github link</a></li> -->
+    </ul>
+  </div>
+  <div class="sidebar"></div>
+  </div>
+  <div class="content-wrapper">
+  <div class="content">
+  <title>365 Days of Coding - Shakib</title>
+  
+  <!-- <h2>Intro</h2> -->
+  <ul class="task-list">
+    <li class="task"><a href="./Day_01/">Day 1 - Introduction to JavaScript</a><span class="detail">JS</span><span class="task-score"><a href="#">-</a></span></li>
+    <li class="task"><a href="./Day_02/">Day 2 - Temperature Conversion</a><span class="detail">HTML, CSS, JS</span><span class="task-score"><a href="./Day_02/index.html">Project</a></span></li>
+    <li class="task"><a href="./Day_03/">Day 3 - Web scraping and selenium driver </a><span class="detail">PY</span><span class="task-score"><a href="https://github.com/Mo-Shakib/buX-automation">Project</a></span></li>
+  </ul>
+  </div>
+  </div>
+
 </body>
 </html>
